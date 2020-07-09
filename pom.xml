@@ -13,7 +13,8 @@
   ~      http://www.opensource.org/licenses/apache2.0.php
   ~
   ~  You may elect to redistribute this code under either of these licenses.
-  --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
@@ -23,7 +24,8 @@
     <version>15</version>
   </parent>
 
-  <artifactId>net.scaleplan</artifactId>
+  <groupId>net.scaleplan</groupId>
+  <artifactId>json-vertx-schema</artifactId>
   <version>3.9.1-SNAPSHOT</version>
 
   <name>Vert.x JSON Schema</name>
@@ -35,6 +37,14 @@
     <assertj.version>3.15.0</assertj.version>
     <doc.skip>false</doc.skip>
   </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>scaleplan-maven</id>
+      <name>ScalePlan Maven</name>
+      <url>https://maven.pkg.github.com/scale-plan/maven</url>
+    </repository>
+  </distributionManagement>
 
   <dependencyManagement>
     <dependencies>
