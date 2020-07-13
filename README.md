@@ -1,6 +1,6 @@
 ## Vert.x JSON Schema for 3.9.x
 
-This repo contains backport of Vert.x JSON Schema from version 4.x to version 3.9.x.
+This repo contains the backport of Vert.x JSON Schema from version 4.x to version 3.9.x.
 
 ## Install
 
