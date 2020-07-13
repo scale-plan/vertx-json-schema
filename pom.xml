@@ -25,8 +25,8 @@
   </parent>
 
   <groupId>net.scaleplan</groupId>
-  <artifactId>json-vertx-schema</artifactId>
-  <version>3.9.1-SNAPSHOT</version>
+  <artifactId>vertx-json-schema</artifactId>
+  <version>3.9.1</version>
 
   <name>Vert.x JSON Schema</name>
 
@@ -40,9 +40,8 @@
 
   <distributionManagement>
     <repository>
-      <id>scaleplan-maven</id>
-      <name>ScalePlan Maven</name>
-      <url>https://maven.pkg.github.com/scale-plan/maven</url>
+      <id>scaleplan-bintray</id>
+      <url>https://api.bintray.com/maven/scaleplan/maven/vertx-json-schema/;publish=1</url>
     </repository>
   </distributionManagement>
 
